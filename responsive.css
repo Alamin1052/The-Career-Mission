@@ -1,0 +1,130 @@
+/* For laptop device (1025-1280px) */
+@media screen and (max-width:1025px){
+
+#header-box-img{
+    max-width: 35%;
+
+}
+#header-box-text h2{
+    font-size: 30px;
+}
+#blog-box-main{
+    flex-direction: column-reverse;
+
+}
+
+#blog-box-main-text{
+    max-width: 100%;
+    margin-bottom: 10%;
+}
+
+#blog-box-main-text h4{
+    font-size: 20px;
+}
+
+#blog-box-main-text p{
+    font-size: 16px;
+}
+
+#inspi-box{
+    max-width: 92%;
+}
+
+#target-box{
+    max-width: 80%;
+}
+
+#target-box-card{
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0px auto opx auto;
+    gap: 50px;
+}
+
+.target-box-card-content{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+#footer-container{
+    padding: 26px 30px ;
+}
+#footer-box{
+    max-width: 95%;
+
+}
+
+}
+
+/* For tablet device (601px-1024px) */
+@media screen and (max-width:601px){
+
+#header-box-img{
+    max-width: 50%;
+
+}
+
+#header-box-text h2{
+    font-size: 20px;
+}
+
+#blog-box-heading-text h2{
+    font-size: 26px;
+}
+
+#blog-box-heading-text p{
+    font-size: 12px;
+}
+
+#blog-box-main-img{
+    width: 70%;
+}
+
+#inspi-box{
+    max-width: 100%;
+}
+
+#footer-box{
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+}
+
+
+/* For mobile device (425px-600px) */
+@media screen and (max-width: 428px){
+
+#nav-box h3{
+    font-size: 22px;
+}
+
+.button{
+    font-size: 15px;
+    padding: 17px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #0D132150;
+}
+
+#header-box-img{
+    max-width: 70%;
+
+}
+
+#blog-box-heading-text h2{
+    font-size: 20px;
+}
+
+.blog-button{
+    font-size: 15px;
+}
+
+#inspi-box-video{
+    padding: 8px;
+    border-radius: 8px;
+}
+
+}
